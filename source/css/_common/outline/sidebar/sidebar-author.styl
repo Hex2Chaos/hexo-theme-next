@@ -4,12 +4,25 @@
   margin: 0 auto;
   max-width: $site-author-image-width;
   padding: 2px;
+<<<<<<< HEAD
 
+=======
+  border-radius: 50%;
+  transition: 2s all;
+
+  // 这里的嵌套选择器写法不正确
+  &:hover {
+     transform: rotate(360deg);
+  }
+
+  // 如果启用了圆形
+>>>>>>> d7bb70a (Initialize Next theme with custom modifications)
   if (hexo-config('avatar.rounded')) {
     border-radius: 50%;
   }
 }
 
+<<<<<<< HEAD
 if (hexo-config('avatar.rotated')) {
   .site-author-image {
     transition: transform 1s ease-out;
@@ -33,3 +46,15 @@ if (hexo-config('avatar.rotated')) {
   margin-top: $site-description-margin-top;
   text-align: center;
 }
+=======
+// 旋转配置
+if (hexo-config('avatar.rotated')) {
+  .site-author-image {
+    transition: transform 1s ease-out;
+
+    &:hover {
+      transform: rotateZ(360deg);
+    }
+  }
+}
+>>>>>>> d7bb70a (Initialize Next theme with custom modifications)

@@ -118,8 +118,13 @@ darkmode: false
 menu:
   home: / || fa fa-home
   #about: /about/ || fa fa-user
+<<<<<<< HEAD
   #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
+=======
+#  tags: /tags/ || fa fa-tags
+#  categories: /categories/ || fa fa-th
+>>>>>>> d7bb70a (Initialize Next theme with custom modifications)
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -163,11 +168,19 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
+<<<<<<< HEAD
   url: #/images/avatar.gif
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
   rotated: false
+=======
+  url: /images/avatar.jpg
+  # If true, the avatar will be dispalyed in circle.
+  rounded: true
+  # If true, the avatar will be rotated with the cursor.
+  rotated: true
+>>>>>>> d7bb70a (Initialize Next theme with custom modifications)
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -368,7 +381,11 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
+<<<<<<< HEAD
   scrollpercent: false
+=======
+  scrollpercent: true
+>>>>>>> d7bb70a (Initialize Next theme with custom modifications)
 
 # Reading progress bar
 reading_progress:
@@ -739,7 +756,11 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
+<<<<<<< HEAD
   enable: false
+=======
+  enable: true
+>>>>>>> d7bb70a (Initialize Next theme with custom modifications)
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
